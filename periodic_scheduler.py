@@ -13,6 +13,4 @@ def minute_schedule():
 
 
 scheduler.add_job(minute_schedule, 'interval', minutes=1)
-
-print "About to start scheduler ..."
 scheduler.start()
