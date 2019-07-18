@@ -11,4 +11,4 @@ Start docker container -
 
 View logs on container -
 
-``docker logs `docker ps | grep apscheduler:latest | cut -d' ' -f1` ``
+``docker logs `docker ps | grep apscheduler:latest | cut -d' ' -f1 ``
